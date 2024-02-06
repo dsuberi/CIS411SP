@@ -114,29 +114,29 @@ sequenceDiagram
     
     System->>User: Displays list of options (buy stamps, mail package, etc.)
     
-    User-->>System:Presses “Buy Stamps” button
+    User-->>System: Presses “Buy Stamps” button
     
-    System->>User:	Asks user to swipe card and flashes light next to card reader
+    System->>User: Asks user to swipe card and flashes light next to card reader
 	
-    User-->>System:	Swipes debit card in card reader
+    User-->>System: Swipes debit card in card reader
 	
-    System->>User:	Displays keypad for PIN entry and requests PIN
+    System->>User: Displays keypad for PIN entry and requests PIN
 	
-    User-->>System:	Types in PIN on keypad
+    User-->>System: Types in PIN on keypad
 
-    System->>User:	Confirms payment transaction and asks if user wants a printed receipt
+    System->>User: Confirms payment transaction and asks if user wants a printed receipt
 	
-    User-->>System:	Presses “Yes” button to request receipt
+    User-->>System: Presses “Yes” button to request receipt
 	
-    System->>User:	Prints receipt and asks user to take receipt
+    System->>User: Prints receipt and asks user to take receipt
 	
-    User-->>System:	Takes receipt
+    User-->>System: Takes receipt
 	
-    System->>User:	Displays message to wait while it prints the purchased stamps
+    System->>User: Displays message to wait while it prints the purchased stamps
 	
-    User-->>System:	Takes stamps when printing is done
+    User-->>System: Takes stamps when printing is done
 	
-    System->>User:	Displays Thank You Message for 10 seconds, then displays Welcome message
+    System->>User: Displays Thank You Message for 10 seconds, then displays Welcome message
 
 ```
 
